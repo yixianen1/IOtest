@@ -9,7 +9,7 @@ public class io2 {
 
         try {
             File f = new File("E:/lll2.txt");
-            //创建基于文件的Reader
+            //创建基于文件的Reader ---
             FileReader fr = new FileReader(f);
             //创建字符数组，其长度就是文件的长度
             char[] all = new char[(int) f.length()];
