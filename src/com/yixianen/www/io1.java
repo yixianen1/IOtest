@@ -6,7 +6,7 @@ public class io1 {
     public static void main(String[] args) {
         /*字节流读取文件内容*/
         try {
-            File f = new File("E:/lol.txt");
+            File f = new File("E:/lolllll.txt");
             //创建基于文件的输入流
             FileInputStream fis = new FileInputStream(f);
             byte [] all = new byte[(int) f.length()];
